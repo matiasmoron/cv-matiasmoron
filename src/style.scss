@@ -1,0 +1,103 @@
+@media only screen and (min-width: 768px) {
+  .cv-block{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cv-block{
+    padding: 3%;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .generalInformation-block{
+    margin-left: 36%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .generalInformation-block{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.text--left{
+  text-align: left;
+}
+
+.card {
+  border: 1px solid #0000002e;
+  border-radius: 15px;
+  background: white; 
+  z-index: 2;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  width: 100%;
+  padding: 0.5em 4%;
+}
+
+.icon{
+  opacity: 0.7;
+  opacity: 0.4;
+  transition: opacity 1s ease;
+}
+
+.icon:hover{
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.icon--linkedin:hover{
+  color:#00a0dc;
+}
+
+.icon--github:hover{
+  color:#000;
+}
+
+.icon--facebook:hover{
+  color:#3b5998;
+}
+
+.icon--instagram:hover{
+  color:#e1306c;
+}
+
+.icon--html5:hover{
+  color:#e34f26
+}
+
+.icon--php:hover{
+  color:#8892be;
+}
+
+.icon--js:hover{
+  color:#f7df1e;
+}
+
+.icon--sass:hover{
+  color:#ff3a49;
+}
+
+.icon--react:hover{
+  color:#00d8ff;
+}
+
+.icon--angular:hover{
+  color:#b52e31;
+}

@@ -1,0 +1,354 @@
+{
+  "personal": {
+    "name"    : "Matías Morón",
+    "occupation"   : {
+      "es_AR": "Desarrollador full stack",
+      "en_EN": "Full stack developer"
+    },
+    "picture" : "https://image.ibb.co/mB1KTL/foto-cv-edit.jpg",
+    "degree"  : {
+      "name":{
+        "es_AR": "Licenciado en Ciencias de la Computación",
+        "en_EN": "Licenciado, Computer Science"
+      }, 
+      "university": "Universidad Nacional del Sur"
+    },
+    "email"   : "matiasmoron008@gmail.com",
+    "phone"   : "+54 (02920-15-554540)",
+    "languages":[
+      {
+        "type": {
+          "es_AR": "Español",
+          "en_EN": "Spanish"
+        },
+        "level":{
+          "es_AR": "Hablante nativo",
+          "en_EN": "Native speaker"
+        } 
+      },
+      {
+        "type": {
+          "es_AR": "Inglés",
+          "en_EN": "English"
+        },
+        "level":{
+          "es_AR": "Avanzado",
+          "en_EN": "Advance"
+        } 
+      }
+    ],
+    "socialConnections":[
+      {
+        "description":"linkedin",
+        "url":"https://www.linkedin.com/in/matias-moron-gonzalo"
+      },
+      {
+        "description":"facebook",
+        "url":"https://www.facebook.com/matiasmoron008"
+      },
+      {
+        "description":"github",
+        "url":"https://github.com/matiasmoron"
+      },
+      {
+        "description":"instagram",
+        "url":"https://www.instagram.com/mmatias008"
+      }
+    ]
+  },
+  "generalInformation":{
+    "objectives":{
+      "title":{
+        "es_AR": "Objetivos",
+        "en_EN": "Objectives"
+      },
+      "icon":"objectives",
+      "data":[
+        {
+          "es_AR": "Estar a la vanguardia para resolver las necesidades planteadas de la mejor forma posible, apuntando a la innovación en mejora de la empresa.",
+          "en_EN": "Being at the forefront to solve the needs raised in the best possible way, aiming at innovation in business improvement."
+        },
+        {
+          "es_AR": "Buscar un lugar de trabajo en donde se busque el crecimiento y se presenten nuevos desafíos.",
+          "en_EN": "Find a workplace where growth is sought and new challenges are presented."
+        }
+      ]
+    },
+    "experience":{
+      "title":{
+        "es_AR": "Experiencia Laboral",
+        "en_EN": "Work Experience"
+      },
+      "icon":"work",
+      "data":[
+        {
+          "companyName": "Cooperativa Obrera",
+          "position":{
+            "es_AR":"Desarrollador full stack",
+            "en_EN":"Full stack developer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2016",
+              "en_EN":"2016"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description":{
+            "es_AR":"Diseño, y desarrollo a lo largo de diferentes proyectos tanto de manera individual como también formando parte de distintos grupos de trabajo. Para los cuales permanecí realizando el mantenimiento de los mismos.",
+            "en_EN":"Design, and development along different projects both individually and as part of different work groups. For which I remained performing the maintenance of them."
+          },
+          "extra":[
+            {
+              "description":"angular",
+              "classes":"icon--red"
+            },
+            {
+              "description":"js",
+              "classes":"icon--orange"
+            },
+            {
+              "description":"sass",
+              "classes":"icon--red"
+            },
+            {
+              "description":"html5",
+              "classes":"icon--red"
+            },
+            {
+              "description":"github",
+              "classes":"icon--red"
+            },
+            {
+              "description":"php",
+              "classes":"icon--blue"
+            }
+          ]
+        },
+        {
+          "companyName": "Freelance",
+          "position":{
+            "es_AR":"Desarrollador full stack",
+            "en_EN":"Full stack developer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2015",
+              "en_EN":"2015"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description":{
+            "es_AR":"Diseño y desarrollo de aplicaciónes web para diferentes clientes para los cuales se me presentaron distintos desafios.",
+            "en_EN":"Design and development of web applications for different clients for which I had to overcome different challenges."
+          },
+          "extra":[
+            {
+              "description":"react"
+            },
+            {
+              "description":"angular"
+            },
+            {
+              "description":"js"
+            },
+            {
+              "description":"sass"
+            },
+            {
+              "description":"html5"
+            },
+            {
+              "description":"github"
+            },
+            {
+              "description":"php"
+            }
+          ]
+        },
+        {
+          "companyName": "Inmobiliaria Sar",
+          "position":{
+            "es_AR":"Ventas y administración",
+            "en_EN":"Sales and administration"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2009",
+              "en_EN":"2009"
+            },
+            "end":{
+              "es_AR":"2016",
+              "en_EN":"2016"
+            }
+          },
+          "description":{
+            "es_AR":"Atención al público, alquiler y venta de casas y departamentos, manejo de personal y otras tareas administrativas.",
+            "en_EN":"Attention to the public, rent and sale of houses and apartments, personnel management and other administrative tasks."
+          }
+        }
+      ]
+    },
+    "education":{
+      "title":{
+        "es_AR": "Formación Académica",
+        "en_EN": "Education"
+      },
+      "icon":"education",
+      "data":[
+        {
+          "companyName": "Universidad Nacional Del Sur, Bahía Blanca",
+          "position":{
+            "es_AR":"Licenciatura en Ciencias de la Computación",
+            "en_EN":"Licenciatura, computer science"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2009",
+              "en_EN":"2009"
+            },
+            "end":{
+              "es_AR":"2017",
+              "en_EN":"2017"
+            }
+          },
+          "description":{
+            "es_AR":"Promedio: 7,59",
+            "en_EN":"Average: 7,59"
+          }
+        },
+        {
+          "companyName": "Universidad Autónoma de Yucatán, México",
+          "position":{
+            "es_AR":"Ingeniería en Software",
+            "en_EN":"Software Engineer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2015",
+              "en_EN":"2015"
+            },
+            "end":{
+              "es_AR":"2015",
+              "en_EN":"2015"
+            }
+          },
+          "description":{
+            "es_AR":"Intercambio académico en el cual me capacité en el desarrollo de aplicaciones móbiles multiplataforma y administración de proyectos de software",
+            "en_EN":"Academic exchange in which I trained in the development of multiplatform mobile applications and software project management"
+          }
+        }
+      ]
+    },
+    "languages":{
+      "title":{
+        "es_AR": "Idiomas",
+        "en_EN": "Languages"
+      },
+      "icon":"languages",
+      "data":[
+        {
+          "companyName": "Universidad Nacional Del Sur, Bahía Blanca",
+          "position":{
+            "es_AR":"Certificado del Marco Común Europeo de Referencias para las Lenguas",
+            "en_EN":"Certificate of the Common European Framework of References for Languages"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2015",
+              "en_EN":"2015"
+            },
+            "end":{
+              "es_AR":"2015",
+              "en_EN":"2015"
+            }
+          },
+          "description":{
+            "es_AR":"Examen de diagnóstico de inglés en el Programa de idioma inglés de la Universidad Nacional del Sur. Nivel: B1+",
+            "en_EN":"Diagnostic test of English in the English Language Program of the Universidad Nacional del Sur. Level: B1+"
+          }
+        },
+        {
+          "companyName": "Centro Cambridge, San Antonio Oeste",
+          "position":{
+            "es_AR":"Título Centro Cambridge de idioma Inglés",
+            "en_EN":"Degree on cambridge center of english language"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2000",
+              "en_EN":"2000"
+            },
+            "end":{
+              "es_AR":"2008",
+              "en_EN":"2008"
+            }
+          },
+          "description":{
+            "es_AR":"Oral: 78/100. Escrito: 75/100",
+            "en_EN":"Speaking: 78/100. Writing; 75/100"
+          }
+        }
+      ]
+    },
+    "volunteer":{
+      "title":{
+        "es_AR": "Voluntariado",
+        "en_EN": "Volunteer"
+      },
+      "icon":"volunteer",
+      "data":[
+        {
+          "companyName": "Hospital Interzonal General de Agudos Dr. Jose Penna",
+          "position":{
+            "es_AR":"Diseño y desarrollo",
+            "en_EN":"Design and development"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2016",
+              "en_EN":"2016"
+            },
+            "end":{
+              "es_AR":"2017",
+              "en_EN":"2017"
+            }
+          },
+          "description":{
+            "es_AR":"Diseño de un plan de sistematización a gran escala para el hospital. Para luego realizar la primera etapa del mismo, que se basó en un software de mantenimiento preventivo. Para lo cual se usó Mysql, Php (Laravel), React - Redux. Lo mismo fue presentado para la tesis final de mi licenciatura.",
+            "en_EN":"Design of a large-scale systematization plan for the Hospital. To then perform the first stage of it, which was based on a preventive maintenance software. For which it was used Mysql, Php (Laravel), React – Redux. The same was presented for the final thesis of my bachelor degree"
+          }
+        },
+        {
+          "companyName": "Organización Presente (ONG)",
+          "position":{
+            "es_AR":"Desarrollador full stack",
+            "en_EN":"Full stack developer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2011",
+              "en_EN":"2011"
+            },
+            "end":{
+              "es_AR":"2011",
+              "en_EN":"2011"
+            }
+          },
+          "description":{
+            "es_AR": "Formé parte de un equipo de desarrollo para una aplicacion web",
+            "en_EN":"I was part of a development team for a web application."
+          }
+        }
+      ]
+    }
+  }
+
+ 
+}

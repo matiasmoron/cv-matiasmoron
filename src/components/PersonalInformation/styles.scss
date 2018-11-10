@@ -1,0 +1,37 @@
+@media only screen and (min-width: 768px) {
+  .personal-block{
+    width: 30%;
+    position: fixed;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .personal-block{
+    width: 100%;
+    position: relative;
+  }
+}
+
+/* Personal image */
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  -webkit-box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
+}
+.profile-card img:hover {
+  -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.social-panel{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
+}
+

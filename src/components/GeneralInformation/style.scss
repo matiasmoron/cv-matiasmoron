@@ -1,0 +1,148 @@
+$primary-item-color:#000;
+$secondary-item-color:#585858;
+
+.general__item{
+  padding: 1.5rem;
+}
+
+.general-item__title{
+  text-align: left;
+  font-weight: bold;
+  width: 90%;
+  border-bottom: 1.5px solid;
+  font-size: 1.15rem;
+  white-space: nowrap;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .general-item__title{
+    transition: width 1.5s ease-out;
+    width: 40%;
+  }
+  .general__item:hover {
+    .general-item__title{
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .extra-item .general-item__body{
+    position: relative;
+    padding-bottom: 45px !important;
+  }
+
+  .body__icons{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+}
+
+
+.objective--icon{
+  margin-right: 10px;
+  font-size: 0.7em;
+}
+
+.general-item__body{
+  display: flex;
+  font-size: 0.9em;
+  padding: 0.8em 0.5em;
+
+  &.general-item__body--objective{
+    display: block;
+  }
+
+  &:hover .body-icon{
+    opacity: 1;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba($primary-item-color,0.26);
+  }
+}
+
+.header-block{
+  width: 40%;
+  text-align: left;
+  margin-right: 0.75em;
+}
+
+.title-description{
+  padding-left: 10px;
+}
+
+
+.body {
+  &__block{
+    width: 60%;
+    text-align: left;
+    margin-left: 0.75em;
+  }
+
+  &__occupation{
+    font-weight: bold;
+  }
+
+
+  &__description{
+    color: $secondary-item-color;
+  }
+
+  &__icons{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
+  }
+
+}
+
+.title-time{
+  color: $secondary-item-color;
+  
+  &__year-start{
+    padding-right: 5px;
+  
+    &::after{
+      padding-left: 5px;
+      content: ">";
+    }
+  }
+}
+
+.title__body{
+  font-weight: bold;
+}
+
+.see-more-block{
+  justify-content: center;
+}
+
+.see-more-btn{
+  padding: 6px;
+  background: #44444491;
+  border-radius: 12px;
+  color: white;
+  transition: background 0.4s ease-in-out;
+}
+.see-more-btn:hover{
+  cursor: pointer;
+  background: black;
+}
+
+
+
+.icon{
+  padding: 0 0.5em;
+}
+
+.icon-mysql:after{
+  content: 'Mysql';
+  font-size: 0.5em;
+  display: flex;
+}
