@@ -2,8 +2,8 @@
   "personal": {
     "name"    : "Matías Morón",
     "occupation"   : {
-      "es_AR": "Desarrollador full stack",
-      "en_EN": "Full stack developer"
+      "es_AR": "Desarrollador fullstack",
+      "en_EN": "Fullstack developer"
     },
     "picture" : "https://image.ibb.co/mB1KTL/foto-cv-edit.jpg",
     "degree"  : {
@@ -37,6 +37,10 @@
         } 
       }
     ],
+    "extract":{
+      "es_AR": "Me gusta estar a la vanguardia para resolver las necesidades planteadas de la mejor manera posible. Escuchar y siempre estar abierto a nuevas y diferentes perspectivas es la mejor forma para ir mejorando día a día",
+      "en_EN": "I like to be at the forefront to solve the needs raised in the best possible way. Listening and always being open to new and different perspectives is the best way to improve day by day."
+    },
     "socialConnections":[
       {
         "description":"linkedin",
@@ -125,6 +129,10 @@
             {
               "description":"php",
               "classes":"icon--blue"
+            },
+            {
+              "description":"mysql",
+              "classes":"icon--blue"
             }
           ]
         },
@@ -169,6 +177,10 @@
             },
             {
               "description":"php"
+            },
+            {
+              "description":"mysql",
+              "classes":"icon--blue"
             }
           ]
         },
@@ -219,8 +231,8 @@
             }
           },
           "description":{
-            "es_AR":"Promedio: 7,59",
-            "en_EN":"Average: 7,59"
+            "es_AR":"",
+            "en_EN":""
           }
         },
         {
@@ -291,8 +303,8 @@
             }
           },
           "description":{
-            "es_AR":"Oral: 78/100. Escrito: 75/100",
-            "en_EN":"Speaking: 78/100. Writing; 75/100"
+            "es_AR":"",
+            "en_EN":""
           }
         }
       ]
