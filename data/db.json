@@ -2,8 +2,8 @@
   "personal": {
     "name"    : "Matías Morón",
     "occupation"   : {
-      "es_AR": "Desarrollador fullstack",
-      "en_EN": "Fullstack developer"
+      "es_AR": "Desarrollador full stack",
+      "en_EN": "Full stack developer"
     },
     "picture" : "https://image.ibb.co/mB1KTL/foto-cv-edit.jpg",
     "degree"  : {
