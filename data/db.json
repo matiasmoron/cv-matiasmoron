@@ -2,8 +2,8 @@
   "personal": {
     "name"    : "Matías Morón",
     "occupation"   : {
-      "es_AR": "Desarrollador full stack",
-      "en_EN": "Full stack developer"
+      "es_AR": "Desarrollador front end",
+      "en_EN": "Front end developer"
     },
     "picture" : "https://image.ibb.co/mB1KTL/foto-cv-edit.jpg",
     "degree"  : {
@@ -86,6 +86,49 @@
       "icon":"work",
       "data":[
         {
+          "companyName": "Globant",
+          "position":{
+            "es_AR":"Desarrollador front end",
+            "en_EN":"Front end developer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019",
+              "en_EN":"2019"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description":{
+            "es_AR":"Diseño, y desarrollo de diferentes aplicaciones web. Guiando y colaborando en la capacitación de algunos miembros del equipo.",
+            "en_EN":"Design, and development of different web applications. Guiding and collaborating in the training of some team members."
+          },
+          "extra":[
+            {
+              "description":"angular",
+              "classes":"icon--red"
+            },
+            {
+              "description":"js",
+              "classes":"icon--orange"
+            },
+            {
+              "description":"sass",
+              "classes":"icon--red"
+            },
+            {
+              "description":"html5",
+              "classes":"icon--red"
+            },
+            {
+              "description":"github",
+              "classes":"icon--red"
+            }
+          ]
+        },
+        {
           "companyName": "Cooperativa Obrera",
           "position":{
             "es_AR":"Desarrollador full stack",
@@ -97,8 +140,8 @@
               "en_EN":"2016"
             },
             "end":{
-              "es_AR":"Actualidad",
-              "en_EN":"Present"
+              "es_AR":"2019",
+              "en_EN":"2019"
             }
           },
           "description":{
@@ -148,8 +191,8 @@
               "en_EN":"2015"
             },
             "end":{
-              "es_AR":"Actualidad",
-              "en_EN":"Present"
+              "es_AR":"2019",
+              "en_EN":"2019"
             }
           },
           "description":{
