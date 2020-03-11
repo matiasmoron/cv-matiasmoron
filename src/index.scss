@@ -3,16 +3,18 @@
 ::before{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 20px;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Lato',sans-serif;
   background: whitesmoke;
   // background: #dddd;
-  font-size: 15px;
+  box-sizing: border-box;
 }
 
 hr{

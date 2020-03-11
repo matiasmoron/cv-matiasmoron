@@ -3,6 +3,9 @@ $secondary-item-color:#585858;
 
 .general__item{
   padding: 1.5rem;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .general-item__title{
@@ -29,14 +32,8 @@ $secondary-item-color:#585858;
 @media only screen and (max-width: 768px) {
   .extra-item .general-item__body{
     position: relative;
-    padding-bottom: 45px !important;
   }
 
-  .body__icons{
-    position: absolute;
-    left: 0;
-    width: 100%;
-  }
 }
 
 
@@ -46,7 +43,10 @@ $secondary-item-color:#585858;
 }
 
 .general-item__body{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  // display: flex;
   font-size: 0.9em;
   padding: 0.8em 0.5em;
 
@@ -64,7 +64,7 @@ $secondary-item-color:#585858;
 }
 
 .header-block{
-  width: 40%;
+  // width: 40%;
   text-align: left;
   margin-right: 0.75em;
 }
@@ -76,7 +76,7 @@ $secondary-item-color:#585858;
 
 .body {
   &__block{
-    width: 60%;
+    // width: 60%;
     text-align: left;
     margin-left: 0.75em;
   }
@@ -91,13 +91,25 @@ $secondary-item-color:#585858;
   }
 
   &__icons{
+    grid-column: 1 / -1;
+
     display: flex;
     flex-direction: row;
     font-size: 1.5em;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
+    padding-top: .8rem;
     flex-wrap: wrap;
+
+    .icon{
+      width: 2.9rem;
+      height: auto;
+      opacity: 1;
+
+      img{
+        width: 100%;
+      }
+    }
   }
 
 }
@@ -145,4 +157,8 @@ $secondary-item-color:#585858;
   content: 'Mysql';
   font-size: 0.5em;
   display: flex;
+}
+
+.img--react{
+  background: url(../../images/iconos/react.png);
 }

@@ -13,7 +13,7 @@ class PersonalInformationContainer extends Component {
   componentDidMount() {
     fetch('data/db.json').then(response => (
       response.json()
-      )).then(({personal}) => {
+    )).then(({ personal }) => {
         this.setState({ personal })
       });
   }
@@ -21,7 +21,10 @@ class PersonalInformationContainer extends Component {
   render() {
     return (
       this.props.language &&
-      <PersonalInformation language={this.props.language} data={this.state.personal}></PersonalInformation>
+      <PersonalInformation
+        language={this.props.language}
+        data={this.state.personal}>
+      </PersonalInformation>
     );
   }
 }

@@ -1,0 +1,27 @@
+.print{
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 30;
+
+  img{
+    cursor: pointer;
+    width: 2rem;
+    height: auto;
+    box-shadow: 0rem 0rem 2px 1px #5a474780;
+    border-radius: 50%;
+
+    transition: all .4s ease-out;
+
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .print{
+    display: none;
+  }
+}

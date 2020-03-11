@@ -5,7 +5,6 @@ import WorkExperience from "../components/GeneralInformation/WorkExperience";
 import Languages from "../components/GeneralInformation/Languages";
 import Studies from "../components/GeneralInformation/Studies";
 import Volunteer from "../components/GeneralInformation/Volunteer";
-import Objectives from "../components/GeneralInformation/Objectives";
 import Loading from "../components/Loading";
 
 class GeneralInformationContainer extends Component {
@@ -25,7 +24,6 @@ class GeneralInformationContainer extends Component {
 
   renderComponent() {
     const {
-      objectives,
       experience,
       education,
       languages,
@@ -34,7 +32,6 @@ class GeneralInformationContainer extends Component {
 
     return (
       <div className="generalInformation-block">
-        <Objectives data={objectives} language={this.props.language}></Objectives> 
         <WorkExperience data={experience} language={this.props.language}></WorkExperience>
         <Studies data={education} language={this.props.language}></Studies>
         <Languages data={languages} language={this.props.language}></Languages>

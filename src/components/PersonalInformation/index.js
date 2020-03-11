@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 import PersonalHeader from './PersonalHeader';
 import PersonalBody from './PersonalBody';
-import SocialPanel from './SocialPanel';
 
 import transformPersonalData from '../../services/transformPersonalData';
 import './styles.scss';
@@ -23,8 +22,7 @@ class PersonalInformation extends Component {
       occupation,
       email,
       degree,
-      languages,
-      socialConnections,
+      extract,
       picture,
     } = transformPersonalData(this.props.data, this.props.language);
     
@@ -36,13 +34,13 @@ class PersonalInformation extends Component {
             occupation={occupation}
             picture={picture}>
           </PersonalHeader>
+          <div className="extract">
+            {extract}
+          </div>
           <PersonalBody
             degree={degree}
-            email={email}
-            languages={languages}>
+            email={email}>
           </PersonalBody>
-          <hr></hr>
-          <SocialPanel data={socialConnections}></SocialPanel>
         </div>
       </div>
     )

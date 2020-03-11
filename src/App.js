@@ -8,21 +8,21 @@ import './style.scss';
 import PanelButtonsLanguagesContainer from './containers/PanelButtonsLanguagesContainer';
 import PersonalInformationContainer from "./containers/PersonalInformationContainer";
 import GeneralInformationContainer from "./containers/GeneralInformationContainer";
+import HtmlToPDF from "./components/HtmlToPDF";
 // import ButtonsNavigation from "./components/ButtonsNavigation";
-
-
 library.add(fas,fab,far)
-
 
 class App extends Component {
 
+  
   render() {
     return (
-      <div className="cv-block">
+      <div  id="capture" className="cv-block">
         <PersonalInformationContainer></PersonalInformationContainer>
         <GeneralInformationContainer></GeneralInformationContainer>
         {/* <ButtonsNavigation></ButtonsNavigation> */}
         <PanelButtonsLanguagesContainer></PanelButtonsLanguagesContainer>
+        <HtmlToPDF></HtmlToPDF>
       </div>
     );
   }

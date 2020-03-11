@@ -1,5 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PropTypes from 'prop-types';
 import './style.scss';
 
@@ -7,15 +7,15 @@ const Item = ({ title, additional,icon }) => {
   return (
     <div className="item-block">
       <div className="item-icon-block">
-        <FontAwesomeIcon icon={icon} />
+        <img src={icon}  alt="arg-flag" />
       </div>
       <div>
         <span className="item-title">
           {title}
         </span>
-        <span className="item-additional">
+        {/* <span className="item-additional">
           {additional}
-        </span>
+        </span> */}
       </div>
     </div>
   );
@@ -24,6 +24,6 @@ const Item = ({ title, additional,icon }) => {
 Item.propTypes = {
   title : PropTypes.string.isRequired,
   additional: PropTypes.string,
-  icon: PropTypes.array.isRequired,
+  icon: PropTypes.string.isRequired,
 }
 export default Item;

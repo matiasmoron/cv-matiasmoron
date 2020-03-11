@@ -25,8 +25,8 @@ const GeneralItem = ({companyName,position,description,time,children}) => {
             {description}
           </div>
         </div>
-        {children}
       </div>
+      {children}
     </div>
   );
 }

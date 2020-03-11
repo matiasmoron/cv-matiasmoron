@@ -14,7 +14,7 @@ class PanelButtonsLanguages extends Component {
   
   render() {
     return (
-      <div className="panel-buttons-languages">
+      <div className="panel-buttons-languages no-print">
         <div className={`language-item ${this.props.language === ES_AR ? 'active': ''} `} onClick={() => this.props.handleClick(ES_AR)}>
           <img src={flagArg} className="language-flag" alt="arg-flag" />
         </div>

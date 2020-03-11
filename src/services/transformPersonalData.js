@@ -1,6 +1,6 @@
 const transformPersonalData = (data, appLanguage) => {
   const formatLanguages = [];
-  const { languages, occupation, degree } = data;
+  const { languages, occupation, degree, extract } = data;
 
   languages.map(({type,level}) => {
     return formatLanguages.push({
@@ -12,6 +12,7 @@ const transformPersonalData = (data, appLanguage) => {
   return {
     ...data,
     occupation: occupation[appLanguage],
+    extract: extract[appLanguage],
     degree: degree['name'][appLanguage],
     languages: formatLanguages,
   }
