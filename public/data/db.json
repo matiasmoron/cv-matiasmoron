@@ -2,8 +2,8 @@
   "personal": {
     "name"    : "Matías Morón",
     "occupation"   : {
-      "es_AR": "Desarrollador full stack",
-      "en_EN": "Full stack developer"
+      "es_AR": "Desarrollador front end",
+      "en_EN": "Front end developer"
     },
     "picture" : "https://image.ibb.co/mB1KTL/foto-cv-edit.jpg",
     "degree"  : {
@@ -37,6 +37,10 @@
         } 
       }
     ],
+    "extract":{
+      "es_AR": "Me gusta estar a la vanguardia para resolver las necesidades planteadas de la mejor manera posible. Escuchar y siempre estar abierto a nuevas y diferentes perspectivas es la mejor forma para ir mejorando día a día",
+      "en_EN": "I like to be at the forefront to solve the needs raised in the best possible way. Listening and always being open to new and different perspectives is the best way to improve day by day."
+    },
     "socialConnections":[
       {
         "description":"linkedin",
@@ -82,6 +86,49 @@
       "icon":"work",
       "data":[
         {
+          "companyName": "Globant",
+          "position":{
+            "es_AR":"Desarrollador front end",
+            "en_EN":"Front end developer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019",
+              "en_EN":"2019"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description":{
+            "es_AR":"Diseño, y desarrollo de diferentes aplicaciones web. Guiando y colaborando en la capacitación de algunos miembros del equipo.",
+            "en_EN":"Design, and development of different web applications. Guiding and collaborating in the training of some team members."
+          },
+          "extra":[
+            {
+              "description":"angular",
+              "classes":"icon--red"
+            },
+            {
+              "description":"js",
+              "classes":"icon--orange"
+            },
+            {
+              "description":"sass",
+              "classes":"icon--red"
+            },
+            {
+              "description":"html5",
+              "classes":"icon--red"
+            },
+            {
+              "description":"github",
+              "classes":"icon--red"
+            }
+          ]
+        },
+        {
           "companyName": "Cooperativa Obrera",
           "position":{
             "es_AR":"Desarrollador full stack",
@@ -93,8 +140,8 @@
               "en_EN":"2016"
             },
             "end":{
-              "es_AR":"Actualidad",
-              "en_EN":"Present"
+              "es_AR":"2019",
+              "en_EN":"2019"
             }
           },
           "description":{
@@ -125,6 +172,10 @@
             {
               "description":"php",
               "classes":"icon--blue"
+            },
+            {
+              "description":"mysql",
+              "classes":"icon--blue"
             }
           ]
         },
@@ -140,8 +191,8 @@
               "en_EN":"2015"
             },
             "end":{
-              "es_AR":"Actualidad",
-              "en_EN":"Present"
+              "es_AR":"2019",
+              "en_EN":"2019"
             }
           },
           "description":{
@@ -169,6 +220,10 @@
             },
             {
               "description":"php"
+            },
+            {
+              "description":"mysql",
+              "classes":"icon--blue"
             }
           ]
         },
@@ -219,8 +274,8 @@
             }
           },
           "description":{
-            "es_AR":"Promedio: 7,59",
-            "en_EN":"Average: 7,59"
+            "es_AR":"",
+            "en_EN":""
           }
         },
         {
@@ -291,8 +346,8 @@
             }
           },
           "description":{
-            "es_AR":"Oral: 78/100. Escrito: 75/100",
-            "en_EN":"Speaking: 78/100. Writing; 75/100"
+            "es_AR":"",
+            "en_EN":""
           }
         }
       ]
