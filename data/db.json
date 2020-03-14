@@ -93,8 +93,8 @@
           },
           "time":{
             "start":{
-              "es_AR":"2019",
-              "en_EN":"2019"
+              "es_AR":"2019-Jun",
+              "en_EN":"2019-Jun"
             },
             "end":{
               "es_AR":"Actualidad",
@@ -128,8 +128,7 @@
             },
             {
               "description":"github",
-              "tooltip":"Angular 2+",
-              "classes":"Github"
+              "tooltip":"Github"
             }
           ]
         },
@@ -141,12 +140,12 @@
           },
           "time":{
             "start":{
-              "es_AR":"2016",
-              "en_EN":"2016"
+              "es_AR":"2016-Mar",
+              "en_EN":"2016-Mar"
             },
             "end":{
-              "es_AR":"2019",
-              "en_EN":"2019"
+              "es_AR":"2019-Jun",
+              "en_EN":"2019-Jun"
             }
           },
           "description":{
@@ -335,6 +334,27 @@
       "icon":"languages",
       "data":[
         {
+          "companyName": "Language Market",
+          "position":{
+            "es_AR":"Módulo de nivel Upper Intermediate",
+            "en_EN":"Upper Intermediate level module"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Ago",
+              "en_EN":"2019-Aug"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
           "companyName": "Universidad Nacional Del Sur, Bahía Blanca",
           "position":{
             "es_AR":"Certificado del Marco Común Europeo de Referencias para las Lenguas",
@@ -363,12 +383,12 @@
           },
           "time":{
             "start":{
-              "es_AR":"2000",
-              "en_EN":"2000"
+              "es_AR":"2000-Mar",
+              "en_EN":"2000-Mar"
             },
             "end":{
-              "es_AR":"2008",
-              "en_EN":"2008"
+              "es_AR":"2008-Dic",
+              "en_EN":"2008-Dec"
             }
           },
           "description":{
@@ -393,12 +413,12 @@
           },
           "time":{
             "start":{
-              "es_AR":"2016",
-              "en_EN":"2016"
+              "es_AR":"2017-Ene",
+              "en_EN":"2017-Jun"
             },
             "end":{
-              "es_AR":"2017",
-              "en_EN":"2017"
+              "es_AR":"2018-Feb",
+              "en_EN":"2018-Feb"
             }
           },
           "description":{
@@ -414,12 +434,12 @@
           },
           "time":{
             "start":{
-              "es_AR":"2011",
-              "en_EN":"2011"
+              "es_AR":"2011-Mar",
+              "en_EN":"2011-Mar"
             },
             "end":{
-              "es_AR":"2011",
-              "en_EN":"2011"
+              "es_AR":"2011-Dic",
+              "en_EN":"2011-Dec"
             }
           },
           "description":{
