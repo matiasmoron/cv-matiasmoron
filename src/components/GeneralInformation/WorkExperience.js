@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GeneralItem from './GeneralItem';
 import ItemHeader from './ItemHeader';
 import transformGeneralData from '../../services/transformGeneralData';
@@ -16,6 +15,7 @@ import imgGithub from '../../images/iconos/github.png';
 
 const generalItemBody = (data) => (
   data.map((element, index) => (
+
     <GeneralItem key={index}
       companyName={element.companyName}
       position={element.position}
@@ -23,6 +23,7 @@ const generalItemBody = (data) => (
       time={element.time}>
       {element.extra && extraInfo(element.extra)}
     </GeneralItem>
+    
   ))
 );
 
@@ -33,60 +34,25 @@ const extraInfo = (extraData) => (
 );
 
 const addElementsExtra = (extraData) => (
-  extraData.map(({ description }, index) => {
+  extraData.map(({ description, tooltip }, index) => {
 
-    switch (description) {
-      case 'react':
-        return (
-          <div key={index} className="icon">
-            <img src={imgReact} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'angular':
-        return (
-          <div key={index} className="icon">
-            <img src={imgAngular} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'js':
-        return (
-          <div key={index} className="icon">
-            <img src={imgJS} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'sass':
-        return (
-          <div key={index} className="icon">
-            <img src={imgSass} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'html5':
-        return (
-          <div key={index} className="icon">
-            <img src={imgHtml5} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'php':
-        return (
-          <div key={index} className="icon">
-            <img src={imgPHP} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'mysql':
-        return (
-          <div key={index} className="icon">
-            <img src={imgMySql} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      case 'github':
-        return (
-          <div key={index} className="icon">
-            <img src={imgGithub} className={`img img--${description}`} alt=""/>
-          </div>
-        )
-      default:
-        break;
-    }
+    const tecno = {
+      'react': imgReact,
+      'angular': imgAngular,
+      'js': imgJS,
+      'sass': imgSass,
+      'html5': imgHtml5,
+      'php': imgPHP,
+      'mysql':imgMySql,
+      'github':imgGithub
+    };
+
+    return (
+      <div key={index} className="icon">
+        <img src={tecno[description]} className={`img img--${description}`} alt={description} />
+        <span className="icon__tooltip">{tooltip}</span>
+      </div>
+    )
   }
     
   )

@@ -1,164 +1,197 @@
-$primary-item-color:#000;
-$secondary-item-color:#585858;
+$primary-item-color: #000;
+$secondary-item-color: #585858;
 
-.general__item{
+.general__item {
   padding: 1.5rem;
   background: transparent;
   border: none;
   box-shadow: none;
 }
 
-.general-item__title{
-  text-align: left;
-  font-weight: bold;
-  width: 90%;
-  border-bottom: 1.5px solid;
-  font-size: 1.15rem;
-  white-space: nowrap;
+.general-item {
+  &__title {
+    text-align: left;
+    font-weight: bold;
+    width: 90%;
+    border-bottom: 1.5px solid;
+    font-size: 1.15rem;
+    white-space: nowrap;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: [col-1] 1fr [col-2] 2fr;
+  
+    font-size: 0.9em;
+    padding: 0.8em 0.5em;
+  
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+      grid-row-gap: 0.9rem;
+    }
+  
+    &--objective {
+      display: block;
+    }
+  
+    &:hover .body-icon {
+      opacity: 1;
+    }
+  
+    &:not(:last-child) {
+      border-bottom: 1px solid rgba($primary-item-color, 0.26);
+    }
+  }
 }
 
-
 @media only screen and (min-width: 768px) {
-  .general-item__title{
+  .general-item__title {
     transition: width 1.5s ease-out;
     width: 40%;
   }
   .general__item:hover {
-    .general-item__title{
+    .general-item__title {
       width: 100%;
     }
   }
 }
+
 @media only screen and (max-width: 768px) {
-  .extra-item .general-item__body{
+  .extra-item .general-item__body {
     position: relative;
   }
-
 }
 
-
-.objective--icon{
+.objective--icon {
   margin-right: 10px;
   font-size: 0.7em;
 }
 
-.general-item__body{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
 
-  // display: flex;
-  font-size: 0.9em;
-  padding: 0.8em 0.5em;
-
-  &.general-item__body--objective{
-    display: block;
-  }
-
-  &:hover .body-icon{
-    opacity: 1;
-  }
-
-  &:not(:last-child) {
-    border-bottom: 1px solid rgba($primary-item-color,0.26);
-  }
-}
-
-.header-block{
-  // width: 40%;
+.header-block {
   text-align: left;
   margin-right: 0.75em;
 }
 
-.title-description{
+.title-description {
   padding-left: 10px;
 }
 
-
 .body {
-  &__block{
-    // width: 60%;
+  &__block {
     text-align: left;
     margin-left: 0.75em;
+
+    @media only screen and (max-width: 768px) {
+      margin-left: 0;
+    }
   }
 
-  &__occupation{
+  &__occupation {
     font-weight: bold;
   }
 
-
-  &__description{
+  &__description {
     color: $secondary-item-color;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.75rem;
+    }
   }
 
-  &__icons{
-    grid-column: 1 / -1;
+  &__icons {
+    grid-area: 2 / 1 / 2 / -1;
 
-    display: flex;
+    @media only screen and (max-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: center;
+      justify-items: center;
+      grid-gap: 0.5rem;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+    justify-items: center;
+
     flex-direction: row;
     font-size: 1.5em;
-    justify-content: space-around;
     align-items: center;
-    padding-top: .8rem;
+    padding-top: 0.8rem;
     flex-wrap: wrap;
 
-    .icon{
+    .icon {
       width: 2.9rem;
       height: auto;
       opacity: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: default;
 
-      img{
+      img {
         width: 100%;
+      }
+
+      &__tooltip {
+        font-size: 0.5rem;
+        white-space: nowrap;
+        margin-top: 0.3rem;
+        color: $secondary-item-color;
       }
     }
   }
-
 }
 
-.title-time{
+.title-time {
   color: $secondary-item-color;
-  
-  &__year-start{
+  font-size: 0.8rem;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.75rem;
+  }
+
+  &__year-start {
     padding-right: 5px;
-  
-    &::after{
+
+    &::after {
       padding-left: 5px;
-      content: ">";
+      content: '>';
     }
   }
 }
 
-.title__body{
+.title__body {
   font-weight: bold;
 }
 
-.see-more-block{
+.see-more-block {
   justify-content: center;
 }
 
-.see-more-btn{
+.see-more-btn {
   padding: 6px;
   background: #44444491;
   border-radius: 12px;
   color: white;
   transition: background 0.4s ease-in-out;
 }
-.see-more-btn:hover{
+.see-more-btn:hover {
   cursor: pointer;
   background: black;
 }
 
-
-
-.icon{
+.icon {
   padding: 0 0.5em;
 }
 
-.icon-mysql:after{
+.icon-mysql:after {
   content: 'Mysql';
   font-size: 0.5em;
   display: flex;
 }
 
-.img--react{
+.img--react {
   background: url(../../images/iconos/react.png);
 }

@@ -1,53 +1,70 @@
 /* Personal image */
-.profile-card{
+.profile-card {
   color: white;
   height: 100%;
   background-color: #01375f;
 
-  @supports (
-    background-image: 
-    linear-gradient(#01375f, #01375f26),
-    url(../../images/coding.jpg)
-  ){
+  @supports (background-image: linear-gradient(#01375f, #01375f26), url(../../images/coding.jpg)) {
     background-size: cover;
     background-position: top;
-    background-image: 
-      linear-gradient(#01375f, #01375f26),
-      url(../../images/coding.jpg);
+    background-image: linear-gradient(#01375f, #01375f26), url(../../images/coding.jpg);
+  }
+}
+
+.profile-card{
+
+  &__container {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: none;
+    transition: transform .5s background-image 2s;
+
+    &:hover{
+      .profile-card__image {
+        -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
+        transform: rotateY(180deg);
+        background-image:url('../../images/flagArg.png');
+      }
+
+    }
   }
 
-
+  &__image {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    -webkit-box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
+  
+    background-image:url('../../images/foto-cv.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 100%;
+    border-radius: 3rem;
+  
+    transform: none;
+    transition: transform .3s;
+    width: 9rem;
+  }
 }
 
 
-
-
-.profile-card__image {
-  width: 9rem;
-  height: 9rem;
-  max-width: 100%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transition: -webkit-box-shadow 0.3s ease;
-  transition: box-shadow 0.3s ease;
-  -webkit-box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
-
-  height: 100%;
-  border-radius: 3rem;
-}
-.profile-card img:hover {
-  -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
-}
-
-.social-panel{
+.social-panel {
   display: flex;
   justify-content: space-around;
   font-size: 1.3em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-.extract{
+.extract {
   margin-top: 4rem;
   border-top: 1px solid grey;
   border-radius: 12%;
@@ -55,8 +72,7 @@
   padding: 2rem;
 }
 
-.personal-body-block{
+.personal-body-block {
   margin-top: 6rem;
   text-align: center;
-  // padding: 2rem;
 }

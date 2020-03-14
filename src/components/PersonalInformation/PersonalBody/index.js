@@ -4,22 +4,24 @@ import Item from "./Item";
 
 import imgCel from '../../../images/cel.png';
 import imgEmail from '../../../images/email.png';
-import imgLinkedin from '../../../images/ln.png';
 
 
-const PersonalBody = ({ degree, email }) => {
+const PersonalBody = ({ phone, email }) => {
   return (
     <div className="personal-body-block">
-      <Item title='matiasmoron00@gmail.com' icon={imgEmail}></Item>
-      <Item title='+54 2920 554540' icon={imgCel}></Item>
-      <Item title='/in/matias-moron-gonzalo/' icon={imgLinkedin}></Item>
+      <Item title={email} icon={imgEmail}></Item>
+      <Item title={phone} icon={imgCel}></Item>
+      {/* <Item title='/in/matias-moron-gonzalo/' icon={imgLinkedin}></Item> */}
+      {/* <div>
+        <Item icon={imgLinkedin} url="https://www.linkedin.com/in/matias-moron-gonzalo"></Item>
+      </div> */}
     </div>
   );
 };
 
 PersonalBody.propTypes = {
-  degree : PropTypes.string.isRequired,
-  email: PropTypes.string.isRequired
+  phone : PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
 }
 
 export default PersonalBody;

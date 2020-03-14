@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
-
 const openNewTab = (url) => {
   window.open(url, '_blank');
 }
@@ -16,7 +14,7 @@ const socialElement = (data) => (
   ))
 )
 
-const SocialPanel = ({data}) => {
+const SocialPanel = ({ data }) => {
   return (
     <div className="social-panel">
       {socialElement(data)}
