@@ -6,11 +6,11 @@ import './style.scss';
 //   console.log('open url', url);
 //   window.open(url,'mywindow');
 // }
-const Item = ({ title, icon }) => {
+const Item = ({ title, icon, url }) => {
   return (
     <div className="item-block">
       <div className="item-icon-block">
-        <img src={icon}  alt="arg-flag" />
+        <img src={icon} alt={icon} />
       </div>
       <div>
         <span className="item-title">

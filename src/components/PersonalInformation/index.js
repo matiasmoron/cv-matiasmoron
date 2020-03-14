@@ -40,14 +40,14 @@ class PersonalInformation extends Component {
           <div className="extract">
             {extract}
           </div>
-          <SocialPanel
-            data={socialConnections}
-          >
-          </SocialPanel>
           <PersonalBody
             phone={phone}
             email={email}>
           </PersonalBody>
+          <SocialPanel
+            data={socialConnections}
+          >
+          </SocialPanel>
         </div>
       </div>
     )

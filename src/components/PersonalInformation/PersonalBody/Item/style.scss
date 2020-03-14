@@ -1,18 +1,16 @@
 .item-block{
   text-align: left;
-  font-size: 1.1em;
   display: flex;
-  align-items: center;
-  // padding: 5px 0;
   margin: 1rem 0;
 }
 
 .item-icon-block{
-  padding-right: 10px; 
-
-  width: 3rem;
+  width: 1.4rem;
   height: auto;
+  line-height: 1;
+  margin-right: .3rem;
 }
+
 .item-title{
   padding-left: 3px;
 }

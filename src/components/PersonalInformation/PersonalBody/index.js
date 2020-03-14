@@ -7,14 +7,21 @@ import imgEmail from '../../../images/email.png';
 
 
 const PersonalBody = ({ phone, email }) => {
+  const href = `mailto:${email}`;
+
   return (
     <div className="personal-body-block">
-      <Item title={email} icon={imgEmail}></Item>
+      <div className="item-block">
+        <div className="item-icon-block">
+          <img src={imgEmail}/>
+        </div>
+        <div>
+          <a href={href} className="item-title">
+            {email}
+          </a>
+        </div>
+      </div>
       <Item title={phone} icon={imgCel}></Item>
-      {/* <Item title='/in/matias-moron-gonzalo/' icon={imgLinkedin}></Item> */}
-      {/* <div>
-        <Item icon={imgLinkedin} url="https://www.linkedin.com/in/matias-moron-gonzalo"></Item>
-      </div> */}
     </div>
   );
 };
