@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.639ee56f.css",
-  "main.css.map": "static/css/main.639ee56f.css.map",
-  "main.js": "static/js/main.280d79b8.js",
-  "main.js.map": "static/js/main.280d79b8.js.map",
+  "main.css": "static/css/main.5ce27542.css",
+  "main.css.map": "static/css/main.5ce27542.css.map",
+  "main.js": "static/js/main.26c219a3.js",
+  "main.js.map": "static/js/main.26c219a3.js.map",
   "static\\media\\angular.png": "static/media/angular.b23fc05d.png",
   "static\\media\\cel.png": "static/media/cel.a6530691.png",
   "static\\media\\coding.jpg": "static/media/coding.62035aae.jpg",
@@ -11,8 +11,10 @@
   "static\\media\\foto-cv.jpg": "static/media/foto-cv.edcaf676.jpg",
   "static\\media\\github.png": "static/media/github.b71bc541.png",
   "static\\media\\html5.png": "static/media/html5.9cf4a14c.png",
+  "static\\media\\inmobiliaria.png": "static/media/inmobiliaria.41a4dc8a.png",
   "static\\media\\js.png": "static/media/js.dff36bad.png",
   "static\\media\\php.png": "static/media/php.1befcc4c.png",
   "static\\media\\react.png": "static/media/react.1f27d280.png",
-  "static\\media\\sass.png": "static/media/sass.c0c163ba.png"
+  "static\\media\\sass.png": "static/media/sass.c0c163ba.png",
+  "static\\media\\uady.jpg": "static/media/uady.bcc38576.jpg"
 }
