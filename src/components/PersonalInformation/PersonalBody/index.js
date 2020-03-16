@@ -13,7 +13,7 @@ const PersonalBody = ({ phone, email }) => {
     <div className="personal-body-block">
       <div className="item-block">
         <div className="item-icon-block">
-          <img src={imgEmail}/>
+          <img src={imgEmail} alt="email"/>
         </div>
         <div>
           <a href={href} className="item-title">

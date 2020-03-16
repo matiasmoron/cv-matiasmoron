@@ -2,8 +2,8 @@
   "personal": {
     "name"    : "Matías Morón",
     "occupation"   : {
-      "es_AR": "Desarrollador front end",
-      "en_EN": "Front end developer"
+      "es_AR": "Software Engineer",
+      "en_EN": "Software Engineer "
     },
     "picture" : "https://image.ibb.co/mB1KTL/foto-cv-edit.jpg",
     "degree"  : {
@@ -87,6 +87,7 @@
       "data":[
         {
           "companyName": "Globant",
+          "icon":"globant",
           "position":{
             "es_AR":"Desarrollador front end",
             "en_EN":"Front end developer"
@@ -134,6 +135,7 @@
         },
         {
           "companyName": "Cooperativa Obrera",
+          "icon":"coope",
           "position":{
             "es_AR":"Desarrollador full stack",
             "en_EN":"Full stack developer"
@@ -192,6 +194,7 @@
         },
         {
           "companyName": "Freelance",
+          "icon":"dev",
           "position":{
             "es_AR":"Desarrollador full stack",
             "en_EN":"Full stack developer"
@@ -254,6 +257,7 @@
         },
         {
           "companyName": "Inmobiliaria Sar",
+          "icon":"inmo",
           "position":{
             "es_AR":"Ventas y administración",
             "en_EN":"Sales and administration"
@@ -281,9 +285,11 @@
         "en_EN": "Education"
       },
       "icon":"education",
-      "data":[
+      "data":{
+       "default":[
         {
           "companyName": "Universidad Nacional Del Sur, Bahía Blanca",
+          "icon":"uns",
           "position":{
             "es_AR":"Licenciatura en Ciencias de la Computación",
             "en_EN":"Licenciatura, computer science"
@@ -305,6 +311,7 @@
         },
         {
           "companyName": "Universidad Autónoma de Yucatán, México",
+          "icon":"uady",
           "position":{
             "es_AR":"Ingeniería en Software",
             "en_EN":"Software Engineer"
@@ -324,7 +331,378 @@
             "en_EN":"Academic exchange in which I trained in the development of multiplatform mobile applications and software project management"
           }
         }
-      ]
+       ],
+       "extra":[
+        {
+          "companyName": "Udemy",
+          "icon": "udemy",
+          "certificate":"https://www.udemy.com/certificate/UC-a7c5e40c-a6c6-4275-817c-2ce2265e564b/",
+          "position":{
+            "es_AR":"Curso Completo de JavaScript 2020",
+            "en_EN":"The Complete JavaScript Course 2020"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2020-Mar",
+              "en_EN":"2020-Mar"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/ff57cc8c3e7a312edc8bafc6b2f0dc1f13b3ab5e",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Fundamentos de ECMAScript 6",
+            "en_EN":"Fundamentos de ECMAScript 6"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Oct",
+              "en_EN":"2019-Oct"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/3595bb9c37e6035b380b63d51c9033a516ba12f3",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Node.js, el comienzo",
+            "en_EN":"Node.js, el comienzo"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Oct",
+              "en_EN":"2019-Oct"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/d203d9775dcdafd397cffef89916212bb4355465",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"React/Redux",
+            "en_EN":"React/Redux"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Oct",
+              "en_EN":"2019-Oct"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/6cb72152c66aef19ab89629beed33c6c94ca905a",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Animaciones en CSS",
+            "en_EN":"Animaciones en CSS"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jul",
+              "en_EN":"2019-Jul"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/4a96ebf5a71369a2fab042bee02fe366e78a8170",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Debugging",
+            "en_EN":"Debugging"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jul",
+              "en_EN":"2019-Jul"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/bc5d0bcb6736d81277b6035a2defea3374129d42",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Gulp.js, automatizando tareas",
+            "en_EN":"Gulp.js, automatizando tareas"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jul",
+              "en_EN":"2019-Jul"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/a397aaec19a81b19f39660f94c2d09872699a596",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"HTML5",
+            "en_EN":"HTML5"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jul",
+              "en_EN":"2019-Jul"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/9c4441d5f6b6b70ea854d33ef6df5f57940f1bf0",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"React Native",
+            "en_EN":"React Native"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jul",
+              "en_EN":"2019-Jul"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/3a5e20ea64d9992a1fa079f68e1d0955028fbb42",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Harnessing the power of AI",
+            "en_EN":"Harnessing the power of AI"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jun",
+              "en_EN":"2019-Jun"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/873f87fb32a792fcddd7e4b8c3ce77b004fddd1b",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"Angular 2+",
+            "en_EN":"Angular 2+"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jun",
+              "en_EN":"2019-Jun"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Acamica",
+          "certificate":"https://globant.acamica.com/cert/535393f08777863a6a75c1fcb1b9e1c488aba67d",
+          "icon": "acamica",
+          "position":{
+            "es_AR":"CSS Avanzado",
+            "en_EN":"Advanced CSS"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2019-Jun",
+              "en_EN":"2019-Jun"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Udemy",
+          "certificate":"https://www.udemy.com/certificate/UC-WPVOSD3X/",
+          "icon":"udemy",
+          "position":{
+            "es_AR":"CSS-Sass Avanzado: Flexbox, Grid, Animaciones",
+            "en_EN":"Advanced CSS and Sass: Flexbox, Grid, Animations"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2018-Jun",
+              "en_EN":"2018-Jun"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Udemy",
+          "certificate":"https://www.udemy.com/certificate/UC-HNC31U53/",
+          "icon":"udemy",
+          "position":{
+            "es_AR":"React JS + Redux + ES6",
+            "en_EN":"React JS + Redux + ES6"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2018-Jun",
+              "en_EN":"2018-Jun"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Udemy",
+          "certificate":"https://www.udemy.com/certificate/UC-AIQZTTJF/",
+          "icon":"udemy",
+          "position":{
+            "es_AR":"JavaScript ES6",
+            "en_EN":"JavaScript ES6"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2018-May",
+              "en_EN":"2018-May"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        },
+        {
+          "companyName": "Udemy",
+          "certificate":"https://www.udemy.com/certificate/UC-9FXGL4Q3/",
+          "icon":"udemy",
+          "position":{
+            "es_AR":"UX Design",
+            "en_EN":"UX Design"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2018-May",
+              "en_EN":"2018-May"
+            },
+            "end":{
+              "es_AR":"Sin vencimiento",
+              "en_EN":"Without caducity"
+            }
+          },
+          "description":{
+            "es_AR":"",
+            "en_EN":""
+          }
+        }
+       ]
+      }
     },
     "languages":{
       "title":{
@@ -335,6 +713,7 @@
       "data":[
         {
           "companyName": "Language Market",
+          "icon":"languageMarket",
           "position":{
             "es_AR":"Módulo de nivel Upper Intermediate",
             "en_EN":"Upper Intermediate level module"
@@ -356,6 +735,7 @@
         },
         {
           "companyName": "Universidad Nacional Del Sur, Bahía Blanca",
+          "icon":"uns",
           "position":{
             "es_AR":"Certificado del Marco Común Europeo de Referencias para las Lenguas",
             "en_EN":"Certificate of the Common European Framework of References for Languages"
@@ -377,6 +757,7 @@
         },
         {
           "companyName": "Centro Cambridge, San Antonio Oeste",
+          "icon":"cambridge",
           "position":{
             "es_AR":"Título Centro Cambridge de idioma Inglés",
             "en_EN":"Degree on cambridge center of english language"
@@ -407,6 +788,7 @@
       "data":[
         {
           "companyName": "Hospital Interzonal General de Agudos Dr. Jose Penna",
+          "icon":"hospitalPenna",
           "position":{
             "es_AR":"Diseño y desarrollo",
             "en_EN":"Design and development"
@@ -428,6 +810,7 @@
         },
         {
           "companyName": "Organización Presente (ONG)",
+          "icon":"ongPresente",
           "position":{
             "es_AR":"Desarrollador full stack",
             "en_EN":"Full stack developer"
@@ -450,6 +833,4 @@
       ]
     }
   }
-
- 
 }

@@ -2,10 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.scss';
 
-// const openUrl = (url) => {
-//   console.log('open url', url);
-//   window.open(url,'mywindow');
-// }
 const Item = ({ title, icon, url }) => {
   return (
     <div className="item-block">

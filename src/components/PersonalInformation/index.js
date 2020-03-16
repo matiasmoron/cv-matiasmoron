@@ -18,7 +18,6 @@ class PersonalInformation extends Component {
   }
 
   renderBody() {
-    console.log('this.props.data',this.props.data);
     const {
       name,
       occupation,

@@ -4,17 +4,22 @@ import GeneralItem from './GeneralItem';
 import ItemHeader from './ItemHeader';
 import transformGeneralData from '../../services/transformGeneralData';
 import './style.scss';
+// import imgPenna from '../../images/companies/hospitalPenna.png';
+// import imgOngPresente from '../../images/companies/ongPresente.jpg';
 
-const generalItemBody = (data) => (
-  data.map((element, index) => (
-    <GeneralItem key={index}
-      companyName={element.companyName}
-      position={element.position}
-      description={element.description}
-      time={element.time}>
-    </GeneralItem>
-  ))
-);
+const generalItemBody = (data) => {
+
+  return (
+    data.map((element, index) => (
+      <GeneralItem key={index}
+        companyName={element.companyName}
+        position={element.position}
+        description={element.description}
+        time={element.time}>
+      </GeneralItem>
+    ))
+  );
+}
 
 const Volunteer = ({ data, language }) => {
   const { title, icon , formatData } = transformGeneralData(data, language);
