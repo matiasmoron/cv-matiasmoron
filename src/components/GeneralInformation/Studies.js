@@ -96,8 +96,6 @@ class Studies extends Component {
       this.props.language
     );
 
-    console.log('extraData', extraData);
-
     return (
       <div className='card general__item'>
         <ItemHeader title={title} icon={icon}></ItemHeader>

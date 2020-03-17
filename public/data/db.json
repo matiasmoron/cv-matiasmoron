@@ -118,18 +118,18 @@
               "tooltip":"Vanilla JavaScript"
             },
             {
-              "description":"sass",
-              "classes":"icon--red",
-              "tooltip":"Sass"
-            },
-            {
               "description":"html5",
               "tooltip":"HTML5",
               "classes":"icon--red"
             },
             {
-              "description":"github",
-              "tooltip":"Github"
+              "description":"sass",
+              "classes":"icon--red",
+              "tooltip":"Sass"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git"
             }
           ]
         },
@@ -166,19 +166,18 @@
               "tooltip":"Vanilla JavaScript"
             },
             {
-              "description":"sass",
-              "tooltip":"Sass",
-              "classes":"icon--red"
-            },
-            {
               "description":"html5",
               "tooltip":"HTML5",
               "classes":"icon--red"
             },
             {
-              "description":"github",
-              "tooltip":"Github",
+              "description":"sass",
+              "tooltip":"Sass",
               "classes":"icon--red"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git"
             },
             {
               "description":"php",
@@ -229,18 +228,18 @@
               "tooltip":"Vanilla JavaScript"
             },
             {
-              "description":"sass",
-              "tooltip":"Sass",
-              "classes":"icon--red"
-            },
-            {
               "description":"html5",
               "tooltip":"HTML5",
               "classes":"icon--red"
             },
             {
-              "description":"github",
-              "tooltip":"Github",
+              "description":"sass",
+              "tooltip":"Sass",
+              "classes":"icon--red"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git",
               "classes":"icon--red"
             },
             {
