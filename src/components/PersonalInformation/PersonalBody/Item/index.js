@@ -9,9 +9,17 @@ const Item = ({ title, icon, url }) => {
         <img src={icon} alt={icon} />
       </div>
       <div>
-        <span className="item-title">
-          {title}
-        </span>
+        {!url ?
+          <span className="item-title">
+            {title}
+          </span>
+          :
+          <a href={url} className="item-title">
+            {title}
+          </a>
+        }
+      </div>
+      <div>
       </div>
     </div>
   );
