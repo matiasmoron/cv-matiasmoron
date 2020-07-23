@@ -108,7 +108,7 @@
           "extra":[
             {
               "description":"angular",
-              "tooltip":"Angular 2+",
+              "tooltip":"Angular 8+",
               "classes":"icon--red"
             },
             {
@@ -130,6 +130,31 @@
               "description":"git",
               "tooltip":"Git"
             }
+          ]
+        },
+        {
+          "companyName": "Coderhouse",
+          "icon":"coderhouse",
+          "position":{
+            "es_AR":"Profesor - Workshop",
+            "en_EN":"Professor - Workshop "
+          },
+          "time":{
+            "start":{
+              "es_AR":"2020-May",
+              "en_EN":"2020-May"
+            },
+            "end":{
+              "es_AR":"2020-Jul",
+              "en_EN":"2020-Jul"
+            }
+          },
+          "description":{
+            "es_AR":"Profesor a cargo de la planificación, creación de desafíos y dictado de un Workshop en Angular 9 + Firebase, con una modalidad de clases online en vivo. Y además evaluación de los alumnos.",
+            "en_EN":"Professor in charge of planning, creating challenges and giving a Workshop in Angular 9 + Firebase, with a live online class mode. And also evaluation of the students."
+          },
+          "extra":[
+           
           ]
         },
         {
