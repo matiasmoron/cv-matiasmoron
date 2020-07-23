@@ -19,13 +19,15 @@ import imgGlobant from '../../images/companies/globant.jpg';
 import imgDev from '../../images/companies/dev.png';
 import imgCoope from '../../images/companies/coope.png';
 import imgInmobiliaria from '../../images/companies/inmobiliaria.png';
+import imgCoderhouse from '../../images/companies/coderhouse.png';
 
 const generalItemBody = data => {
   const company = {
     globant: imgGlobant,
     coope: imgCoope,
     dev: imgDev,
-    inmo: imgInmobiliaria
+    inmo: imgInmobiliaria,
+    coderhouse: imgCoderhouse
   };
 
   return data.map((element, index) => (
