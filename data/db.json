@@ -133,6 +133,64 @@
           ]
         },
         {
+          "companyName": "Freelance",
+          "icon":"dev",
+          "position":{
+            "es_AR":"Desarrollador full stack",
+            "en_EN":"Full stack developer"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2020-May",
+              "en_EN":"2020-May"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description": {
+            "es_AR":"Diseño y desarrollo de aplicaciónes web para diferentes clientes para los cuales se me presentaron distintos desafios.",
+            "en_EN":"Design and development of web applications for different clients for which I had to overcome different challenges."
+          },
+          "extra": [
+            {
+              "description":"angular",
+              "tooltip":"Angular 10",
+              "classes":"icon--red"
+            },
+            {
+              "description":"react",
+              "tooltip":"React"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git",
+              "classes":"icon--red"
+            },
+            {
+              "description":"php",
+              "tooltip":"PHP",
+              "classes":"icon--blue"
+            },
+            {
+              "description":"nodejs",
+              "tooltip":"NodeJs",
+              "classes":"icon--blue"
+            },
+            {
+              "description":"mysql",
+              "tooltip":"MySql",
+              "classes":"icon--blue"
+            },
+            {
+              "description":"mongodb",
+              "tooltip":"MongoDB",
+              "classes":"icon--blue"
+            }
+          ]
+        },
+        {
           "companyName": "Coderhouse",
           "icon":"coderhouse",
           "position":{
@@ -181,7 +239,7 @@
           "extra":[
             {
               "description":"angular",
-              "tooltip":"Angular 2+",
+              "tooltip":"Angular 6+",
               "classes":"icon--red"
             },
             {
@@ -218,33 +276,33 @@
         {
           "companyName": "Freelance",
           "icon":"dev",
-          "position":{
+          "position": {
             "es_AR":"Desarrollador full stack",
             "en_EN":"Full stack developer"
           },
-          "time":{
+          "time": {
             "start":{
-              "es_AR":"2015",
-              "en_EN":"2015"
+              "es_AR":"2015-Abr",
+              "en_EN":"2015-Apr"
             },
             "end":{
-              "es_AR":"2019",
-              "en_EN":"2019"
+              "es_AR":"2019-Ago",
+              "en_EN":"2019-Ago"
             }
           },
-          "description":{
+          "description": {
             "es_AR":"Diseño y desarrollo de aplicaciónes web para diferentes clientes para los cuales se me presentaron distintos desafios.",
             "en_EN":"Design and development of web applications for different clients for which I had to overcome different challenges."
           },
           "extra":[
             {
-              "description":"react",
-              "tooltip":"ReactJS"
-            },
-            {
               "description":"angular",
               "tooltip":"Angular 2+",
               "classes":"icon--red"
+            },
+            {
+              "description":"react",
+              "tooltip":"React"
             },
             {
               "description":"js",
