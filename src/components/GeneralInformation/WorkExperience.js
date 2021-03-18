@@ -17,6 +17,8 @@ import imgGit from '../../images/iconos/git.png';
 import imgScrum from '../../images/iconos/scrum.png';
 import imgMongodb from '../../images/iconos/mongodb.png';
 import imgNodejs from '../../images/iconos/nodejs.png';
+import imgSQLServer from '../../images/iconos/sqlserver.png';
+import imgAgile from '../../images/iconos/agile.png';
 import imgGlobant from '../../images/companies/globant.jpg';
 import imgDev from '../../images/companies/dev.png';
 import imgCoope from '../../images/companies/coope.png';
@@ -63,6 +65,8 @@ const addElementsExtra = extraData =>
       scrum: imgScrum,
       mongodb: imgMongodb,
       nodejs: imgNodejs,
+      sqlserver: imgSQLServer,
+      agile: imgAgile
     };
 
     return (

@@ -1,18 +1,23 @@
-.item-block{
+.item-block {
   text-align: left;
   display: flex;
   margin: 1rem 0;
+  cursor: pointer;
+  align-items: center;
 }
 
-.item-icon-block{
+.item-icon-block {
   width: 1.4rem;
   height: auto;
   line-height: 1;
   margin-right: .3rem;
+  margin-top: 1px;
+  font-size: 1.3em;
 }
 
 .item-title{
   padding-left: 3px;
+  border-bottom: 1px solid;
 }
 
 .item-additional{

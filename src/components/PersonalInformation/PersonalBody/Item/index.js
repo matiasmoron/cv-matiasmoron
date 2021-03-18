@@ -1,22 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './style.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Item = ({ title, icon, url }) => {
+const Item = ({ title, icon, action = () => { }}) => {
   return (
-    <div className="item-block">
+    <div className="item-block" onClick={ () => action()}>
       <div className="item-icon-block">
-        <img src={icon} alt={icon} />
+        <FontAwesomeIcon icon={icon} />
       </div>
       <div>
-        {!url ?
+        {
           <span className="item-title">
             {title}
           </span>
-          :
-          <a href={url} className="item-title">
-            {title}
-          </a>
         }
       </div>
       <div>

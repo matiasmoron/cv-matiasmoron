@@ -43,7 +43,7 @@ class HtmlToPdf extends Component {
         heightLeft -= pageHeight;
       }
 
-      pdf.save("CV - Matías Morón - Frontend developer.pdf");
+      pdf.save("CV - Matías Morón - Full stack developer.pdf");
       document.body.removeChild(canvas);
       this.mostrarElementos();
     });

@@ -13,7 +13,7 @@
       "university": "Universidad Nacional del Sur"
     },
     "email"   : "matiasmoron008@gmail.com",
-    "phone"   : "+54 (02920-15-554540)",
+    "phone"   : "+549 2920 554540",
     "languages":[
       {
         "type": {
@@ -88,8 +88,8 @@
           "companyName": "Globant",
           "icon":"globant",
           "position":{
-            "es_AR":"Desarrollador front end",
-            "en_EN":"Front end developer"
+            "es_AR":"Desarrollador front end - SSr Adv",
+            "en_EN":"Front end developer - SSr Adv"
           },
           "time":{
             "start":{
@@ -102,8 +102,8 @@
             }
           },
           "description":{
-            "es_AR":"Diseño, y desarrollo de diferentes aplicaciones web. Guiando y colaborando en la capacitación de algunos miembros del equipo.",
-            "en_EN":"Design, and development of different web applications. Guiding and collaborating in the training of some team members."
+            "es_AR":"Diseño, y desarrollo de diferentes aplicaciones web desde la base contra APIs RESTful, siempre enfocado en la utilización de buenas prácticas, llevando a la creación de arquitecturas limpias y escalables con mejora continua. Participación en equipos multiculturales distribuido en diferentes países, utilizando metodologías de desarrollo ágiles en el proceso.",
+            "en_EN":"Design and development of different web applications from the base against RESTful APIs, always focused on the use of good practices, leading to the creation of clean and scalable architectures with continuous improvement. Participation in multicultural teams distributed in different countries using agile development methodologies."
           },
           "extra":[
             {
@@ -127,8 +127,16 @@
               "tooltip":"Sass"
             },
             {
+              "description":"sqlserver",
+              "tooltip":"SQL Server"
+            },
+            {
               "description":"git",
               "tooltip":"Git"
+            },
+            {
+              "description":"agile",
+              "tooltip":"Scrum"
             }
           ]
         },
@@ -150,7 +158,7 @@
             }
           },
           "description": {
-            "es_AR":"Diseño y desarrollo de aplicaciónes web para diferentes clientes para los cuales se me presentaron distintos desafios.",
+            "es_AR":"Diseño y desarrollo de aplicaciónes web para diferentes clientes para los cuales se me presentaron distintos desafíos. ",
             "en_EN":"Design and development of web applications for different clients for which I had to overcome different challenges."
           },
           "extra": [
@@ -164,11 +172,6 @@
               "tooltip":"React"
             },
             {
-              "description":"git",
-              "tooltip":"Git",
-              "classes":"icon--red"
-            },
-            {
               "description":"php",
               "tooltip":"PHP",
               "classes":"icon--blue"
@@ -179,14 +182,24 @@
               "classes":"icon--blue"
             },
             {
+              "description":"sass",
+              "tooltip":"Sass",
+              "classes":"icon--red"
+            },
+            {
               "description":"mysql",
-              "tooltip":"MySql",
+              "tooltip":"MySQL",
               "classes":"icon--blue"
             },
             {
               "description":"mongodb",
               "tooltip":"MongoDB",
               "classes":"icon--blue"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git",
+              "classes":"icon--red"
             }
           ]
         },
@@ -258,18 +271,23 @@
               "classes":"icon--red"
             },
             {
-              "description":"git",
-              "tooltip":"Git"
-            },
-            {
               "description":"php",
               "tooltip":"PHP",
               "classes":"icon--blue"
             },
             {
               "description":"mysql",
-              "tooltip":"MySql",
+              "tooltip":"MySQL",
               "classes":"icon--blue"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git",
+              "classes":"icon--red"
+            },
+            {
+              "description":"agile",
+              "tooltip":"Scrum"
             }
           ]
         },
@@ -320,19 +338,19 @@
               "classes":"icon--red"
             },
             {
-              "description":"git",
-              "tooltip":"Git",
-              "classes":"icon--red"
-            },
-            {
               "description":"php",
               "tooltip":"PHP",
               "classes":"icon--blue"
             },
             {
               "description":"mysql",
-              "tooltip":"MySql",
+              "tooltip":"MySQL",
               "classes":"icon--blue"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git",
+              "classes":"icon--red"
             }
           ]
         },
