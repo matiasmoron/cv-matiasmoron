@@ -85,6 +85,62 @@
       "icon":"work",
       "data":[
         {
+          "companyName": "Cloud(x)",
+          "icon":"cloud",
+          "position":{
+            "es_AR":"Desarrollador full stack - Sr",
+            "en_EN":"Full stack developer - Sr"
+          },
+          "time":{
+            "start":{
+              "es_AR":"2021-Abr",
+              "en_EN":"2019-Apr"
+            },
+            "end":{
+              "es_AR":"Actualidad",
+              "en_EN":"Present"
+            }
+          },
+          "description":{
+            "es_AR":"Diseño, y desarrollo de diferentes aplicaciones web desde la base contra APIs RESTful, siempre enfocado en la utilización de buenas prácticas, llevando a la creación de arquitecturas limpias y escalables con mejora continua. Participación en equipos multiculturales distribuido en diferentes países, utilizando metodologías de desarrollo ágiles en el proceso.",
+            "en_EN":"Design and development of different web applications from the base against RESTful APIs, always focused on the use of good practices, leading to the creation of clean and scalable architectures with continuous improvement. Participation in multicultural teams distributed in different countries using agile development methodologies."
+          },
+          "extra":[
+            {
+              "description":"angular",
+              "tooltip":"Angular 8+",
+              "classes":"icon--red"
+            },
+            {
+              "description":"js",
+              "classes":"icon--orange",
+              "tooltip":"Vanilla JavaScript"
+            },
+            {
+              "description":"html5",
+              "tooltip":"HTML5",
+              "classes":"icon--red"
+            },
+            {
+              "description":"sass",
+              "classes":"icon--red",
+              "tooltip":"Sass"
+            },
+            {
+              "description":"sqlserver",
+              "tooltip":"SQL Server"
+            },
+            {
+              "description":"git",
+              "tooltip":"Git"
+            },
+            {
+              "description":"agile",
+              "tooltip":"Scrum"
+            }
+          ]
+        },
+        {
           "companyName": "Globant",
           "icon":"globant",
           "position":{
@@ -97,8 +153,8 @@
               "en_EN":"2019-Jun"
             },
             "end":{
-              "es_AR":"Actualidad",
-              "en_EN":"Present"
+              "es_AR":"2021-Abr",
+              "en_EN":"2021-Apr"
             }
           },
           "description":{

@@ -22,6 +22,7 @@ import imgAgile from '../../images/iconos/agile.png';
 import imgGlobant from '../../images/companies/globant.jpg';
 import imgDev from '../../images/companies/dev.png';
 import imgCoope from '../../images/companies/coope.png';
+import imgCloud from '../../images/companies/cloudx.png';
 import imgInmobiliaria from '../../images/companies/inmobiliaria.png';
 import imgCoderhouse from '../../images/companies/coderhouse.png';
 
@@ -31,7 +32,8 @@ const generalItemBody = data => {
     coope: imgCoope,
     dev: imgDev,
     inmo: imgInmobiliaria,
-    coderhouse: imgCoderhouse
+    coderhouse: imgCoderhouse,
+    cloud: imgCloud
   };
 
   return data.map((element, index) => (
