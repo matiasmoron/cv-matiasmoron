@@ -1,12 +1,11 @@
 {
-  "main.css": "static/css/main.23a1417d.css",
-  "main.css.map": "static/css/main.23a1417d.css.map",
-  "main.js": "static/js/main.6a15af49.js",
-  "main.js.map": "static/js/main.6a15af49.js.map",
+  "main.css": "static/css/main.589561b0.css",
+  "main.css.map": "static/css/main.589561b0.css.map",
+  "main.js": "static/js/main.81a872d5.js",
+  "main.js.map": "static/js/main.81a872d5.js.map",
+  "static\\media\\agile.png": "static/media/agile.993b1d26.png",
   "static\\media\\angular.png": "static/media/angular.b23fc05d.png",
-  "static\\media\\cel.png": "static/media/cel.a6530691.png",
   "static\\media\\coding.jpg": "static/media/coding.62035aae.jpg",
-  "static\\media\\email.png": "static/media/email.4db3a08b.png",
   "static\\media\\flagEng.jpg": "static/media/flagEng.3f459c1f.jpg",
   "static\\media\\foto-cv-2.jpg": "static/media/foto-cv-2.d662b4c3.jpg",
   "static\\media\\foto3.jpeg": "static/media/foto3.093a36ca.jpeg",
@@ -20,5 +19,6 @@
   "static\\media\\php.png": "static/media/php.1befcc4c.png",
   "static\\media\\react.png": "static/media/react.1f27d280.png",
   "static\\media\\sass.png": "static/media/sass.c0c163ba.png",
+  "static\\media\\sqlserver.png": "static/media/sqlserver.4ed9362b.png",
   "static\\media\\uady.jpg": "static/media/uady.bcc38576.jpg"
 }
