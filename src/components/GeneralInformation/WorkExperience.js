@@ -19,7 +19,9 @@ import imgMongodb from '../../images/iconos/mongodb.png';
 import imgNodejs from '../../images/iconos/nodejs.png';
 import imgSQLServer from '../../images/iconos/sqlserver.png';
 import imgAgile from '../../images/iconos/agile.png';
+import imgAzure from '../../images/iconos/azure.png';
 import imgGlobant from '../../images/companies/globant.jpg';
+import imgCloudX from '../../images/companies/cloudx.jpg';
 import imgDev from '../../images/companies/dev.png';
 import imgCoope from '../../images/companies/coope.png';
 import imgCloud from '../../images/companies/cloudx.png';
@@ -29,6 +31,7 @@ import imgCoderhouse from '../../images/companies/coderhouse.png';
 const generalItemBody = data => {
   const company = {
     globant: imgGlobant,
+    cloudx: imgCloudX,
     coope: imgCoope,
     dev: imgDev,
     inmo: imgInmobiliaria,
@@ -68,7 +71,8 @@ const addElementsExtra = extraData =>
       mongodb: imgMongodb,
       nodejs: imgNodejs,
       sqlserver: imgSQLServer,
-      agile: imgAgile
+      agile: imgAgile,
+      azure: imgAzure
     };
 
     return (
