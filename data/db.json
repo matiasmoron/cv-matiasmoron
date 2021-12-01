@@ -88,8 +88,8 @@
           "companyName": "Cloud(x)",
           "icon": "cloudx",
           "position": {
-            "es_AR": "Desarrollador full stack / Technical Leader",
-            "en_EN": "Desarrollador full stack / Technical Leader"
+            "es_AR": "Desarrollador full stack / Líder técnico",
+            "en_EN": "Full stack developer / Technical Leader"
           },
           "time": {
             "start": {
@@ -102,8 +102,8 @@
             }
           },
           "description": {
-            "es_AR": "Diseño y desarrollo de diferentes aplicaciones web, armado de arquitecturas. Actuando como líder técnico, utilizando metologías ágiles, mediante la gestión con Azure Devops.",
-            "en_EN": "Design and development of different web applications, building architectures. Acting as technical leader, using agile methodologies, through management with Azure Devops."
+            "es_AR": "Diseño y desarrollo de diferentes aplicaciones web y armado de arquitecturas. Actuando como líder técnico, y manteniendo una comunicación directa con los clientes. Utilizando metologías ágiles, logrando un proceso de desarrollo de integración continua, mediante la gestión con Azure Devops.",
+            "en_EN": "Design and development of different web applications and building of architectures. Acting as technical leader, having a direct communication with the clients. Using agile methodologies, achieving a continuous integration development process, through management with Azure Devops."
           },
           "extra": [
             {
@@ -179,6 +179,18 @@
             {
               "description": "git",
               "tooltip": "Git"
+            },
+            {
+              "description": "azure",
+              "tooltip": "Azure Devops"
+            },
+            {
+              "description": "sqlserver",
+              "tooltip": "SQL Server"
+            },
+            {
+              "description": "agile",
+              "tooltip": "Scrum"
             }
           ]
         },
@@ -186,8 +198,8 @@
           "companyName": "Freelance",
           "icon": "dev",
           "position": {
-            "es_AR": "Desarrollador full stack",
-            "en_EN": "Full stack developer"
+            "es_AR": "Desarrollador full stack / Líder técnico",
+            "en_EN": "Full stack developer / Technical Leader"
           },
           "time": {
             "start": {
@@ -200,8 +212,8 @@
             }
           },
           "description": {
-            "es_AR": "Diseño y desarrollo de aplicaciónes web para diferentes clientes para los cuales se me presentaron distintos desafios.",
-            "en_EN": "Design and development of web applications for different clients for which I had to overcome different challenges."
+            "es_AR": "Diseño y desarrollo de aplicaciones web para distintos clientes, en contratos por hora o llave en mano, creando y gestionando equipos de desarrollo de entre 3 y 6 personas.",
+            "en_EN": "Design and development of web applications for different clients, in hourly or turnkey contracts, creating and managing development teams of between 3 and 6 people."
           },
           "extra": [
             {
@@ -219,11 +231,6 @@
               "classes": "icon--red"
             },
             {
-              "description": "php",
-              "tooltip": "PHP",
-              "classes": "icon--blue"
-            },
-            {
               "description": "nodejs",
               "tooltip": "NodeJs",
               "classes": "icon--blue"
@@ -236,6 +243,16 @@
             {
               "description": "mongodb",
               "tooltip": "MongoDB",
+              "classes": "icon--blue"
+            },
+            {
+              "description": "aws",
+              "tooltip": "AWS",
+              "classes": "icon--blue"
+            },
+            {
+              "description": "jira",
+              "tooltip": "Jira",
               "classes": "icon--blue"
             }
           ]
@@ -841,6 +858,28 @@
       "icon": "languages",
       "data": [
         {
+          "companyName": "Tudor House English Centre",
+          "icon": "languageMarket",
+          "position": {
+            "es_AR": "Certificado del Marco Común Europeo de Referencias para las Lenguas.",
+            "en_EN": "Certificate of the Common European Framework of References for Languages."
+          },
+          "time": {
+            "start": {
+              "es_AR": "2020-May",
+              "en_EN": "2020-May"
+            },
+            "end": {
+              "es_AR": "Actualidad",
+              "en_EN": "Present"
+            }
+          },
+          "description": {
+            "es_AR": "Clases individuales de inglés. Nivel: C1.",
+            "en_EN": "One-to-one english classes. Level: C1."
+          }
+        },
+        {
           "companyName": "Language Market",
           "icon": "languageMarket",
           "position": {
@@ -853,8 +892,8 @@
               "en_EN": "2019-Aug"
             },
             "end": {
-              "es_AR": "Actualidad",
-              "en_EN": "Present"
+              "es_AR": "2020-Mar",
+              "en_EN": "2020-Mar"
             }
           },
           "description": {
