@@ -37,8 +37,8 @@
       }
     ],
     "extract": {
-      "es_AR": "Soy un desarrollador full stack con más de 8 años de experiencia en la industria IT, trabajando principalmente con ReactJs, Angular+10, NodeJs. Me gusta estar a la vanguardia para resolver las necesidades planteadas de la mejor manera posible. Coinsidero que escuchar y siempre estar abierto a nuevas y diferentes perspectivas es la mejor forma para ir mejorando día a día",
-      "en_EN": "I'm a full stack software developer from Argentina, with +8 years of experience. Mainly working with ReactJs, Angular+10, NodeJs. I like to be at the forefront to solve the needs raised in the best possible way. I believe that listening and always being open to new and different perspectives is the best way to improve day by day."
+      "es_AR": "Soy un desarrollador full stack con más de 8 años de experiencia en la industria IT, trabajando principalmente con ReactJs, Angular +10, NodeJs. Me gusta estar a la vanguardia para resolver las necesidades planteadas de la mejor manera posible. Coinsidero que escuchar y siempre estar abierto a nuevas y diferentes perspectivas es la mejor forma para ir mejorando día a día",
+      "en_EN": "I'm a full stack software developer from Argentina, with +8 years of experience. Mainly working with ReactJs, Angular +10, NodeJs. I like to be at the forefront to solve the needs raised in the best possible way. I believe that listening and always being open to new and different perspectives is the best way to improve day by day."
     },
     "socialConnections": [
       {
@@ -197,7 +197,7 @@
           "extra": [
             {
               "description": "angular",
-              "tooltip": "Angular 11+",
+              "tooltip": "Angular +11",
               "classes": "icon--red"
             },
             {
@@ -255,7 +255,7 @@
           "extra": [
             {
               "description": "angular",
-              "tooltip": "Angular 8+",
+              "tooltip": "Angular +8",
               "classes": "icon--red"
             },
             {
@@ -303,7 +303,7 @@
           "extra": [
             {
               "description": "angular",
-              "tooltip": "Angular 10",
+              "tooltip": "Angular +8",
               "classes": "icon--red"
             },
             {
@@ -355,8 +355,8 @@
             }
           },
           "description": {
-            "es_AR": "Profesor a cargo de la planificación, creación de desafíos y dictado de un Workshop en Angular 9 + Firebase, con una modalidad de clases online en vivo. Y además evaluación de los alumnos.",
-            "en_EN": "Professor in charge of planning, creating challenges and giving a Workshop in Angular 9 + Firebase, with a live online class mode. And also evaluation of the students."
+            "es_AR": "Profesor a cargo de la planificación, creación de desafíos y dictado de un Workshop en Angular +9 Firebase, con una modalidad de clases online en vivo. Y además evaluación de los alumnos.",
+            "en_EN": "Professor in charge of planning, creating challenges and giving a Workshop in Angular +9 Firebase, with a live online class mode. And also evaluation of the students."
           },
           "extra": []
         },
@@ -442,7 +442,7 @@
           "extra": [
             {
               "description": "angular",
-              "tooltip": "Angular 2+",
+              "tooltip": "Angular +2",
               "classes": "icon--red"
             },
             {
@@ -772,8 +772,8 @@
             "certificate": "https://globant.acamica.com/cert/873f87fb32a792fcddd7e4b8c3ce77b004fddd1b",
             "icon": "acamica",
             "position": {
-              "es_AR": "Angular 2+",
-              "en_EN": "Angular 2+"
+              "es_AR": "Angular +2",
+              "en_EN": "Angular +2"
             },
             "time": {
               "start": {
