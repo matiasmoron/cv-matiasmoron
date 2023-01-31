@@ -480,6 +480,28 @@
               "classes": "icon--blue"
             }
           ]
+        },
+        {
+          "companyName": "Inmobiliaria Sar",
+          "icon": "inmo",
+          "position": {
+            "es_AR": "Ventas y administración",
+            "en_EN": "Sales and administration"
+          },
+          "time": {
+            "start": {
+              "es_AR": "2009",
+              "en_EN": "2009"
+            },
+            "end": {
+              "es_AR": "2016",
+              "en_EN": "2016"
+            }
+          },
+          "description": {
+            "es_AR": "Atención al público, alquiler y venta de casas y departamentos, manejo de personal y otras tareas administrativas.",
+            "en_EN": "Attention to the public, rent and sale of houses and apartments, personnel management and other administrative tasks."
+          }
         }
       ]
     },

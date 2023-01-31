@@ -24,6 +24,6 @@ const Item = ({ title, icon, action = () => { }}) => {
 
 Item.propTypes = {
   title : PropTypes.string,
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.array.isRequired,
 }
 export default Item;

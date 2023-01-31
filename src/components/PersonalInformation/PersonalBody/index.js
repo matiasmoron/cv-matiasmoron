@@ -61,7 +61,7 @@ const openEmail = (email) => {
 }
 
 PersonalBody.propTypes = {
-  phone : PropTypes.string.isRequired,
+  phone : PropTypes.string,
   email: PropTypes.string.isRequired,
 }
 

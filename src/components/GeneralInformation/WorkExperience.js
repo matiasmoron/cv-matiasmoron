@@ -6,6 +6,8 @@ import transformGeneralData from '../../services/transformGeneralData';
 import './style.scss';
 
 import imgReact from '../../images/iconos/react.png';
+import imgNext from '../../images/iconos/nextjs.png';
+import imgTypescript from '../../images/iconos/typescript.png';
 import imgAngular from '../../images/iconos/angular.png';
 import imgJS from '../../images/iconos/js.png';
 import imgSass from '../../images/iconos/sass.png';
@@ -18,6 +20,8 @@ import imgScrum from '../../images/iconos/scrum.png';
 import imgMongodb from '../../images/iconos/mongodb.png';
 import imgNodejs from '../../images/iconos/nodejs.png';
 import imgSQLServer from '../../images/iconos/sqlserver.png';
+import imgPostgresSQL from '../../images/iconos/postgresql.png';
+import imgGraphQL from '../../images/iconos/graphql.png';
 import imgAgile from '../../images/iconos/agile.png';
 import imgAzure from '../../images/iconos/azure.png';
 import imgGlobant from '../../images/companies/globant.jpg';
@@ -27,6 +31,8 @@ import imgCoope from '../../images/companies/coope.png';
 import imgCloud from '../../images/companies/cloudx.png';
 import imgInmobiliaria from '../../images/companies/inmobiliaria.png';
 import imgCoderhouse from '../../images/companies/coderhouse.png';
+import imgUplift from '../../images/companies/uplift.jpg';
+import imgDoubleNines from '../../images/companies/99.jpg';
 
 const generalItemBody = data => {
   const company = {
@@ -36,7 +42,9 @@ const generalItemBody = data => {
     dev: imgDev,
     inmo: imgInmobiliaria,
     coderhouse: imgCoderhouse,
-    cloud: imgCloud
+    cloud: imgCloud,
+    uplift: imgUplift,
+    doublenines: imgDoubleNines,
   };
 
   return data.map((element, index) => (
@@ -59,6 +67,7 @@ const addElementsExtra = extraData =>
   extraData.map(({ description, tooltip }, index) => {
     const tecno = {
       react: imgReact,
+      nextjs: imgNext,
       angular: imgAngular,
       js: imgJS,
       sass: imgSass,
@@ -71,8 +80,11 @@ const addElementsExtra = extraData =>
       mongodb: imgMongodb,
       nodejs: imgNodejs,
       sqlserver: imgSQLServer,
+      postgresql: imgPostgresSQL,
+      graphql: imgGraphQL,
       agile: imgAgile,
-      azure: imgAzure
+      azure: imgAzure,
+      typescript: imgTypescript
     };
 
     return (

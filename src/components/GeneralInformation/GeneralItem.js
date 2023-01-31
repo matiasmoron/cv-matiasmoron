@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 const GeneralItem = ({ companyName, position, description, time, icon, certificate, classes, moreInfo, children }) => {
-  const itemClasses = `general-item__body ${classes}`;
+  const itemClasses = `general-item__body ${classes ? classes : ''}`;
   return (
     <div className={itemClasses}>
       <div className='header-block'>
